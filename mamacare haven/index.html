@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MamaHaven – Digital‑First Women’s Health Ecosystem</title>
+  <meta name="description" content="MamaHaven is a digital‑first women’s health platform for Africa and beyond — starting with maternity and expanding across the full women’s health journey. Join the waitlist.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS for subtle animations (optional) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    :root{
+      --pink:#f8d7e5;
+      --pink-2:#f6c3d9;
+      --rose:#e75480;
+      --bg:#fff7fb;
+      --ink:#1f2937;
+      --muted:#6b7280;
+      --white:#ffffff;
+      --shadow: 0 10px 30px rgba(231,84,128,.14);
+      --radius:14px;
+    }
+    html,body{height:100%}
+    body{
+      margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; color:var(--ink); background:radial-gradient(1200px 600px at 10% -20%, #ffe6f2 0%, transparent 60%), radial-gradient(1000px 500px at 90% 0%, #ffeaf4 0%, transparent 55%), var(--bg);
+    }
+    .container-max{max-width:1100px; margin:0 auto; padding:0 20px}
+    header{position:sticky; top:0; backdrop-filter:saturate(1.2) blur(6px); background:rgba(255,247,251, .85); border-bottom:1px solid #f3e1ea; z-index:30}
+    .logo{display:flex; align-items:center; gap:.6rem; text-decoration:none}
+    .mh{font-family:'Playfair Display', serif; font-weight:800; letter-spacing:.4px; font-size:1.35rem; background:linear-gradient(90deg,#a21a52,#e75480 50%,#ff7aa2); -webkit-background-clip:text; background-clip:text; color:transparent}
+    .tag{font-size:.8rem; color:#a21a52; font-weight:600}
+    .hero{padding:5rem 0 2rem}
+    .hero h1{font-family:'Playfair Display', serif; font-size:2.6rem; line-height:1.06; margin:.3rem 0}
+    .hero p{font-size:1.05rem; color:var(--muted); max-width:820px}
+    .badge{display:inline-flex; align-items:center; gap:.5rem; background:var(--white); border:1px solid #f3e1ea; color:#a21a52; padding:.35rem .7rem; border-radius:999px; font-size:.82rem}
+    .card-custom{background:var(--white); border:1px solid #f3e1ea; border-radius:12px; padding:1.1rem; box-shadow:var(--shadow)}
+    .section-title{font-family:'Playfair Display', serif; font-size:1.6rem; margin-bottom:1rem}
+    .feature-ico{width:44px; height:44px; border-radius:12px; background:linear-gradient(180deg,#ffd3e6,#ffc0da); display:inline-flex; align-items:center; justify-content:center; font-weight:700; color:#a21a52}
+    .waitlist{background:linear-gradient(135deg,#fff,#fff4f9 60%); padding:1.2rem; border-radius:12px}
+    .legal{font-size:.84rem; color:#9ca3af}
+    footer{border-top:1px solid #f3e1ea; padding:1.6rem 0; color:#6b7280}
+
+    /* Responsive tweaks */
+    @media (max-width:768px){
+      .hero h1{font-size:1.9rem}
+      .hero{padding:3rem 0}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container-max py-2">
+      <div class="d-flex align-items-center justify-content-between">
+        <a class="logo" href="#top" aria-label="MamaHaven home">
+          <span class="mh">MamaHaven</span>
+          <small class="tag ms-1">women’s health, reimagined</small>
+        </a>
+        <div>
+          <a href="#waitlist" class="btn btn-outline-danger btn-sm me-2">Join waitlist</a>
+          <a href="#features" class="btn btn-link text-danger">Features</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container-max">
+        <span class="badge">Private beta • invite only</span>
+        <h1 data-aos="fade-up">The digital health companion for women — <span style="color:#a21a52">starting with maternity</span></h1>
+        <p data-aos="fade-up" data-aos-delay="100">MamaHaven brings telehealth, an empathetic AI companion, community support, and practical care tools into one beautifully designed experience. We start with pregnancy & postpartum and expand across fertility, reproductive health, mental wellness, chronic disease, and menopause.</p>
+        <div class="mt-4 d-flex gap-2 flex-wrap" data-aos="fade-up" data-aos-delay="180">
+          <a class="btn btn-danger btn-lg" href="#waitlist">Join the waitlist</a>
+          <a class="btn btn-outline-danger btn-lg" href="#about">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-4">
+      <div class="container-max">
+        <div class="row g-4">
+          <div class="col-md-7">
+            <div class="card-custom">
+              <h2 class="section-title">Built for women, built for Africa</h2>
+              <p class="mb-3">Most current solutions do one thing: a tracker, a chat, or a delivery service. MamaHaven is an integrated, culturally sensitive, and accessible digital health ecosystem for women. We combine early detection, human clinicians, AI companionship, and community support to deliver better outcomes—starting with maternity as our beachhead.</p>
+              <ul class="mb-0">
+                <li><strong>Maternity as a hook:</strong> the largest unmet need, the strongest entry point.</li>
+                <li><strong>Full lifecycle care:</strong> puberty → fertility → maternity → chronic care → menopause.</li>
+                <li><strong>AI that cares:</strong> an empathetic chatbot companion that triages, guides, and connects users to clinicians.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="card-custom h-100">
+              <h3 class="mb-2">Why MamaHaven now?</h3>
+              <p class="text-muted">Smartphone penetration, affordable payments, and advances in AI make a truly integrated women’s health platform possible. We design for low data usage, local languages, and privacy-first experiences.</p>
+              <div class="mt-3">
+                <div class="d-flex gap-2 align-items-center"><span class="feature-ico">AI</span><div class="ms-2"><strong>AI + Early Detection</strong><div class="text-muted small">Risk screening & clinical insights.</div></div></div>
+                <div class="d-flex gap-2 align-items-center mt-2"><span class="feature-ico">👶</span><div class="ms-2"><strong>Baby Tracker</strong><div class="text-muted small">Growth, immunizations & nutrition.</div></div></div>
+                <div class="d-flex gap-2 align-items-center mt-2"><span class="feature-ico">💬</span><div class="ms-2"><strong>Community</strong><div class="text-muted small">Safe, moderated peer groups.</div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="py-4">
+      <div class="container-max">
+        <h2 class="section-title">Core features</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+          <div class="col" data-aos="fade-up"><div class="card-custom h-100"><div class="p-2"><div class="d-flex gap-3 align-items-start"><div class="feature-ico">🧠</div><div><h5>AI Companion</h5><p class="text-muted small">An empathetic chatbot that monitors health, answers questions, provides nutrition advice, supports mental wellness, and escalates to clinicians when needed.</p></div></div></div></div></div>
+          <div class="col" data-aos="fade-up"><div class="card-custom h-100"><div class="p-2"><div class="d-flex gap-3 align-items-start"><div class="feature-ico">👩‍⚕️</div><div><h5>Maternity Hub</h5><p class="text-muted small">Pregnancy tracking, prenatal guidance, appointment scheduling, teleconsults, and early-risk detection through partner insights.</p></div></div></div></div></div>
+          <div class="col" data-aos="fade-up"><div class="card-custom h-100"><div class="p-2"><div class="d-flex gap-3 align-items-start"><div class="feature-ico">👶</div><div><h5>Baby Tracker</h5><p class="text-muted small">Week-by-week growth, immunization reminders, milestone alerts, and culturally relevant nutrition guidance for infants.</p></div></div></div></div></div>
+
+          <div class="col" data-aos="fade-up"><div class="card-custom h-100"><div class="p-2"><div class="d-flex gap-3 align-items-start"><div class="feature-ico">🧠</div><div><h5>Mental Health</h5><p class="text-muted small">Daily mood check-ins, guided self-care, AI-based counseling prompts, and pathways to licensed therapists for escalation.</p></div></div></div></div></div>
+
+          <div class="col" data-aos="fade-up"><div class="card-custom h-100"><div class="p-2"><div class="d-flex gap-3 align-items-start"><div class="feature-ico">🔗</div><div><h5>Provider Network</h5><p class="text-muted small">Integrated clinicians, pharmacies, labs, and partner NGOs for referrals, diagnostics, and treatment paths.</p></div></div></div></div></div>
+
+          <div class="col" data-aos="fade-up"><div class="card-custom h-100"><div class="p-2"><div class="d-flex gap-3 align-items-start"><div class="feature-ico">🔒</div><div><h5>Personal Health Records</h5><p class="text-muted small">Secure, portable records and red-flag alerts to ensure continuity of care across providers.</p></div></div></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="partners" class="py-4">
+      <div class="container-max">
+        <div class="card-custom text-center">
+          <div class="d-flex justify-content-center align-items-center gap-3">
+            <div class="text-muted">Partnering with</div>
+            <div><strong class="partner-aigv" style="font-family:'Playfair Display', serif">AIGV</strong></div>
+            <div><strong class="partner-mirare" style="font-family:'Playfair Display', serif">mirare.ai</strong></div>
+            <div class="text-muted">(early detection & clinical insights)</div>
+          </div>
+          <p class="text-muted small mt-2">We work with trusted clinical partners and providers. Full partner assets will be published at launch.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="waitlist" class="py-4">
+      <div class="container-max">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-7">
+            <div class="card-custom waitlist">
+              <h3>Join the MamaHaven private beta</h3>
+              <p class="text-muted">Sign up to be invited in waves. We'll use responses to prioritize pilots and shape the product.</p>
+
+              <form id="waitlist-form" class="row g-2" autocomplete="on">
+                <div class="col-12 col-md-6"><label class="form-label small">Full name</label><input id="name" name="name" type="text" class="form-control form-control-lg" placeholder="Full name" required></div>
+                <div class="col-12 col-md-6"><label class="form-label small">Email</label><input id="email" name="email" type="email" class="form-control form-control-lg" placeholder="Email address" required></div>
+                <div class="col-12 col-md-6"><label class="form-label small">Phone</label><input id="phone" name="phone" type="tel" class="form-control form-control-lg" placeholder="Phone number"></div>
+                <div class="col-12 col-md-6"><label class="form-label small">Date of birth</label><input id="dob" name="dob" type="date" class="form-control form-control-lg"></div>
+                <div class="col-12"><label class="form-label small">Location (city, country)</label><input id="location" name="location" type="text" class="form-control form-control-lg" placeholder="Lagos, Nigeria"></div>
+
+                <div class="col-12 d-flex gap-2 mt-2">
+                  <button id="submitBtn" class="btn btn-danger btn-lg" type="submit">Request invite</button>
+                  <button id="exportCsv" type="button" class="btn btn-outline-secondary">Export CSV</button>
+                  <button id="clearList" type="button" class="btn btn-outline-secondary">Clear</button>
+                </div>
+                <div class="col-12"><p class="legal">By joining you agree to our <span class="kbd">privacy</span> & <span class="kbd">terms</span>. We store submissions to Airtable (if configured) and as a local backup.</p></div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="card-custom h-100 text-center">
+              <h4 style="margin-bottom:.3rem">What you get</h4>
+              <p class="text-muted small">Early access to the AI companion, maternity hub, baby tracker, mental health tools and invites to pilot programs in your city.</p>
+              <ul class="text-start small" style="list-style:none; padding-left:0; margin-left:0">
+                <li>✔ AI care companion</li>
+                <li>✔ Telehealth access</li>
+                <li>✔ Baby growth & nutrition guidance</li>
+                <li>✔ Exclusive pilot invitations</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container-max d-flex justify-content-between align-items-center">
+      <div><strong>MamaHaven</strong> © <span id="year"></span> • By <strong>AIGV</strong></div>
+      <div><a href="#top" class="text-decoration-none text-muted">Back to top ↑</a></div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({duration:600, once:true});
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Local storage key
+    const KEY = 'mamahaven_waitlist_v2';
+
+    // Helper: read/write
+    function readList(){ try{return JSON.parse(localStorage.getItem(KEY) || '[]')}catch(e){return []} }
+    function writeList(arr){ localStorage.setItem(KEY, JSON.stringify(arr)) }
+
+    // CSV export
+    function exportCSV(){ const list=readList(); if(!list.length){alert('No signups yet.'); return;} const headers=['timestamp','name','email','phone','dob','location']; const rows=list.map(r=>[r.ts, r.name, r.email, r.phone, r.dob, r.location]); const csv=[headers.join(','), ...rows.map(r=>r.map(v=>`"${String(v).replaceAll('"','""')}"`).join(','))].join('
+'); const blob=new Blob([csv], {type:'text/csv;charset=utf-8;'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='mamahaven_waitlist.csv'; a.click(); URL.revokeObjectURL(url); }
+
+    document.getElementById('exportCsv').addEventListener('click', exportCSV);
+    document.getElementById('clearList').addEventListener('click', ()=>{ if(confirm('Clear local signups?')){ localStorage.removeItem(KEY); alert('Cleared local backup.'); }});
+
+    // Airtable placeholders (replace these with your real values)
+    const AIRTABLE_API_KEY = 'REPLACE_WITH_YOUR_AIRTABLE_API_KEY';
+    const AIRTABLE_BASE_ID = 'REPLACE_WITH_YOUR_BASE_ID';
+    const AIRTABLE_TABLE_NAME = 'Waitlist';
+
+    async function sendToAirtable(entry){
+      if(!AIRTABLE_API_KEY || AIRTABLE_API_KEY.startsWith('REPLACE')) return {ok:false, error:'Airtable not configured'};
+      const url = `https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${encodeURIComponent(AIRTABLE_TABLE_NAME)}`;
+      const body = { fields: { Name: entry.name, Email: entry.email, Phone: entry.phone, DOB: entry.dob, Location: entry.location, Timestamp: entry.ts } };
+      try{
+        const res = await fetch(url, { method:'POST', headers:{ 'Authorization':`Bearer ${AIRTABLE_API_KEY}`, 'Content-Type':'application/json' }, body: JSON.stringify(body) });
+        const data = await res.json();
+        if(!res.ok) return {ok:false,error:data};
+        return {ok:true,data};
+      }catch(err){ return {ok:false,error:err.message}; }
+    }
+
+    // Form submission
+    const form = document.getElementById('waitlist-form');
+    const submitBtn = document.getElementById('submitBtn') || document.getElementById('submitBtn');
+
+    form.addEventListener('submit', async (e)=>{
+      e.preventDefault();
+      submitBtn.disabled = true; submitBtn.textContent = 'Submitting...';
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim().toLowerCase();
+      const phone = document.getElementById('phone').value.trim();
+      const dob = document.getElementById('dob').value;
+      const location = document.getElementById('location').value.trim();
+      if(!name || !email){ alert('Please enter your name and a valid email.'); submitBtn.disabled=false; submitBtn.textContent='Request invite'; return; }
+
+      const entry = { ts: new Date().toISOString(), name, email, phone, dob, location };
+      // Local backup
+      const list = readList(); if(list.some(x=>x.email===entry.email)){ alert('This email is already on the waitlist.'); submitBtn.disabled=false; submitBtn.textContent='Request invite'; return; }
+      list.push(entry); writeList(list);
+
+      // Try Airtable
+      const airtableRes = await sendToAirtable(entry);
+      if(airtableRes.ok){ alert('Thanks — you are on the waitlist. We\'ll be in touch via email.'); form.reset(); }
+      else{
+        console.warn('Airtable error', airtableRes.error); alert('Thanks — you are on the waitlist. We\'ll be in touch. (Local backup saved)'); form.reset(); }
+
+      submitBtn.disabled=false; submitBtn.textContent='Request invite';
+    });
+  </script>
+</body>
+</html>
